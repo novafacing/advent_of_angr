@@ -52,3 +52,9 @@ WAY too much work to fit in! Maybe next year :)
    the angr *knowledge base* and how we can use them to create very useful (and tractable)
    analyses of programs, even real world ones (woah!). We will look at some real
    code for this one and see if we can re-discover some known CVEs.
+
+## Miscellaneous ideas (not assigned a day yet)
+
+- Symbion, writing a backend (qdb?).
+- Using archr for complex environment setup.
+- Symbolic tracing and taint tracking.
