@@ -1,4 +1,6 @@
-# Advent of angr
+# Advent Of angr
+
+![A pine tree, decorated for the holidays with yellow, pink, blue, and red lights. It has a cartoon face superimposed on it with angry red eyes and a smirking mouth.](res/logo.svg)
 
 Advent of angr is my attempt at making [angr](https://github.com/angr/angr.git) a little
 more accessible. The idea is essentially this (shamelessly quoted from my own discord
@@ -21,7 +23,7 @@ WAY too much work to fit in! Maybe next year :)
 
 | M                          | T                            | W                                         | R                 | F                        | S               | S                    |
 | -------------------------- | ---------------------------- | ----------------------------------------- | ----------------- | ------------------------ | --------------- | -------------------- |
-|                            |                              | [00: import angr](docs/00_import_angr.md) | 01: run a program | 02: state/regs/mem/oh my | 03: nm, strings | 04: readelf, objdump |
+| Nov 29                     | Nov 30                       | [00: import angr](docs/00_import_angr.md) | 01: run a program | 02: state/regs/mem/oh my | 03: nm, strings | 04: readelf, objdump |
 | 05: classic ctf techniques | 06: some ctf problems (hell) | 07: static analysis                       |                   |                          |                 |                      |
 |                            |                              |                                           |                   |                          |                 |                      |
 |                            |                              |                                           |                   |                          |                 |                      |
