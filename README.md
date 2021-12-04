@@ -21,23 +21,25 @@ WAY too much work to fit in! Maybe next year :)
 
 ## Advent Calendar
 
-| M                          | T                            | W                                         | R                 | F                        | S               | S                    |
-| -------------------------- | ---------------------------- | ----------------------------------------- | ----------------- | ------------------------ | --------------- | -------------------- |
-| Nov 29                     | Nov 30                       | [00: import angr](docs/00_import_angr.md) | 01: run a program | 02: state/regs/mem/oh my | 03: nm, strings | 04: readelf, objdump |
-| 05: classic ctf techniques | 06: some ctf problems (hell) | 07: static analysis                       |                   |                          |                 |                      |
-|                            |                              |                                           |                   |                          |                 |                      |
-|                            |                              |                                           |                   |                          |                 |                      |
-|                            |                              |                                           |                   |                          |                 |                      |
+| M                          | T                            | W                                         | R                        | F                 | S               | S                    |
+| -------------------------- | ---------------------------- | ----------------------------------------- | ------------------------ | ----------------- | --------------- | -------------------- |
+| Nov 29                     | Nov 30                       | [00: import angr](docs/00_import_angr.md) | 01: state/regs/mem/oh my | 02: run a program | 03: nm, strings | 04: readelf, objdump |
+| 05: classic ctf techniques | 06: some ctf problems (hell) | 07: static analysis                       |                          |                   |                 |                      |
+|                            |                              |                                           |                          |                   |                 |                      |
+|                            |                              |                                           |                          |                   |                 |                      |
+|                            |                              |                                           |                          |                   |                 |                      |
+
+## Descriptive Summaries!
 
 0. [import angr](docs/00_import_angr.md): What angr is, sub-components, docs and help,
    installation, and importing and constructing a `Project`
-1. run a program: How to run a program in angr, do IO with args, stdin/out, files, and
+1. state/regs/mem oh my: Inspecting and controlling the program state during execution.
+   More on constraints, symbolic and concrete values, the solver, SimOS and interacting
+   with virtual hardware memory and registers, states and state options.
+2. run a program: How to run a program in angr, do IO with args, stdin/out, files, and
    network. Examining execution, controlling execution, and learning about path
    explosion. How to run concretely with Unicorn. Pre-constrained execution (with stdin,
    we'll look at other things later).
-2. state/regs/mem oh my: Inspecting and controlling the program state during execution.
-   More on constraints, symbolic and concrete values, the solver, SimOS and interacting
-   with virtual hardware memory and registers, states and state options.
 3. nm, strings: We'll implement the nm and strings programs using pure angr with the
    help of CLE and archinfo to get to know those tools better.
 4. readelf, objdump: We'll implement some of the functionality of readelf and objdump
@@ -58,3 +60,21 @@ WAY too much work to fit in! Maybe next year :)
 - Symbion, writing a backend (qdb?).
 - Using archr for complex environment setup.
 - Symbolic tracing and taint tracking.
+
+## How to Install This Repo
+
+To install this repo, you'll need to:
+
+```sh
+apt-get update -y && \
+   apt-get install -y \
+   libffi-dev \
+   graphviz-dev
+```
+
+to install the dependencies for `angr`.
+
+Then, you will need to install `poetry` from here: [poetry](https://github.com/python-poetry/poetry.git).
+
+Finally, just run `poetry install` to install the dependencies, and you'll be able
+to follow along!

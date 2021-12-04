@@ -5,7 +5,7 @@ description = ""
 authors = ["novafacing <novafacing@shemhazi>"]
 
 [tool.poetry.dependencies]
-python = "3.8.10"
+python = "^3.8"
 angr = "^9.0.10689"
 archinfo = "^9.0.10689"
 cle = "^9.0.10689"
