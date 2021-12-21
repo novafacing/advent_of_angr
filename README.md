@@ -2,6 +2,14 @@
 
 ![A pine tree, decorated for the holidays with yellow, pink, blue, and red lights. It has a cartoon face superimposed on it with angry red eyes and a smirking mouth.](res/logo.svg)
 
+## Update
+
+Yeah I got way too busy to do this...sorry :) finals season and all that. I'll probably do it in the new year though, I got a lot of the days done just not polished...
+
+Stay tuned!
+
+## Overview
+
 Advent of angr is my attempt at making [angr](https://github.com/angr/angr.git) a little
 more accessible. The idea is essentially this (shamelessly quoted from my own discord
 message):
